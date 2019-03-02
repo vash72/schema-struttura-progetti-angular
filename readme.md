@@ -4,7 +4,9 @@
 ## |-- app
 
 * |-- core
+  * |-- [+] animations
   * |-- [+] guards
+  * |-- [+] resolvers
   * |-- [+] models
   * |-- [+] helpers
   * |-- [+] http (basic http calls)
@@ -13,8 +15,6 @@
   * |-- [+] components
   * |-- [+] ngrx
   * |-- core.module.ts
-  * |-- core.component.ts
-  * |-- core-routing.module.ts
 * |-- modules
   * |-- home (**home** è un placeholder per il nome_modulo)
     * |-- [+] components
@@ -28,7 +28,6 @@
     * |-- [+] directives
     * |-- [+] pipes
   * |-- utils
-  * |-- [+] configs
 * |-- assets
   * |-- [+] js
   * |-- [+] imgs
@@ -36,5 +35,4 @@
   * |-- [+] icons
 * |-- styles
   * |-- [+] partials
-  * |-- _consts.scss
   * |-- styles.scss
