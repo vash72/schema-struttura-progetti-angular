@@ -32,6 +32,7 @@
   * |-- [+] js
   * |-- [+] imgs
   * |-- [+] bgs
+  * |-- [+] svgs
   * |-- [+] icons
 * |-- styles
   * |-- [+] partials
