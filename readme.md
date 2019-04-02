@@ -23,11 +23,11 @@
     * |-- home-routing.module.ts
     * |-- home.module.ts
     * |-- [+] modules (se è necessario nestare moduli)
-  * |-- shared
-    * |-- [+] components
-    * |-- [+] directives
-    * |-- [+] pipes
-  * |-- utils
+* |-- utils
+* |-- shared
+  * |-- [+] components
+  * |-- [+] directives
+  * |-- [+] pipes
 * |-- assets
   * |-- [+] js
   * |-- [+] imgs
