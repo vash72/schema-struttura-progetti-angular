@@ -38,8 +38,8 @@
          * |-- feature.effects.ts
        * |-- [+] resolvers
        * |-- [+] services
-       * |-- home-routing.module.ts
-       * |-- home.module.ts
+       * |-- feature-routing.module.ts
+       * |-- feature.module.ts
    * |-- utils
    * |-- shared
      * |-- [+] components-ui
