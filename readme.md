@@ -14,6 +14,7 @@
      * |-- [+] interceptors
      * |-- [+] models
      * |-- [+] ngrx
+     * |-- [+] pages (routed components)
        * |-- core.reducer.ts (main entry for redux)
        * |-- example.reducer.ts
        * |-- example.actions.ts
@@ -36,6 +37,7 @@
          * |-- feature.reducer.ts
          * |-- feature.actions.ts
          * |-- feature.effects.ts
+       * |-- [+] pages (routed components)
        * |-- [+] resolvers
        * |-- [+] services
        * |-- feature-routing.module.ts
