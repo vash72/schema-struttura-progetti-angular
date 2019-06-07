@@ -14,11 +14,11 @@
      * |-- [+] interceptors
      * |-- [+] models
      * |-- [+] ngrx
-     * |-- [+] pages (routed components)
        * |-- core.reducer.ts (main entry for redux)
        * |-- example.reducer.ts
        * |-- example.actions.ts
        * |-- example.effects.ts
+     * |-- [+] pages (routed components)       
      * |-- [+] resolvers
      * |-- [+] services
      * |-- core.module.ts
