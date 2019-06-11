@@ -57,3 +57,15 @@
 * |-- styles
   * |-- [+] partials
   * |-- styles.scss
+
+
+Module/Components naming in CRUD operations
+* |-- **entity-name** (singular)
+  * |-- [+] pages (routed components) 
+    * |-- [+] **entity-name**-create
+    * |-- [+] **entity-name**-index
+    * |-- [+] **entity-name**-show
+    * |-- [+] **entity-name**-update
+    * |-- [+] **entity-name**-delete
+  * |-- **entity-name**-routing.module.ts
+  * |-- **entity-name**.module.ts
