@@ -38,6 +38,7 @@
          * |-- feature.actions.ts
          * |-- feature.effects.ts
        * |-- [+] pages (routed components)
+         * |-- [+] feature-component for path:'/' (act like index page)
        * |-- [+] resolvers
        * |-- [+] services
        * |-- feature-routing.module.ts
