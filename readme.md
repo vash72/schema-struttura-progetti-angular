@@ -4,14 +4,8 @@
 ## SRC
 * |-- app
    * |-- core
-     * |-- [+] animations
      * |-- [+] components
      * |-- [+] components-ui
-     * |-- [+] data-services (usually basic http calls)
-     * |-- [+] directives
-     * |-- [+] guards
-     * |-- [+] helpers
-     * |-- [+] interceptors
      * |-- [+] models
      * |-- [+] ngrx
        * |-- core.reducer.ts (main entry for redux)
@@ -19,18 +13,20 @@
        * |-- example.actions.ts
        * |-- example.effects.ts
      * |-- [+] pages (routed components)       
-     * |-- [+] resolvers
-     * |-- [+] services
+     * |-- [+] shared
+       * |-- [+] animations
+       * |-- [+] data-services (usually basic http calls)
+       * |-- [+] directives
+       * |-- [+] guards
+       * |-- [+] helpers
+       * |-- [+] interceptors
+       * |-- [+] resolvers
+       * |-- [+] services
      * |-- core.module.ts
    * |-- modules
      * |-- feature (**feature** is a placeholder)
        * |-- [+] components
        * |-- [+] components-ui
-       * |-- [+] data-services
-       * |-- [+] directives
-       * |-- [+] guards
-       * |-- [+] helpers
-       * |-- [+] interceptors
        * |-- [+] models
        * |-- [+] modules (if nesting is needed)
        * |-- [+] ngrx
@@ -39,8 +35,14 @@
          * |-- feature.effects.ts
        * |-- [+] pages (routed components)
          * |-- [+] feature-component for path:'/' (act like index page)
-       * |-- [+] resolvers
-       * |-- [+] services
+       * |-- [+] shared
+         * |-- [+] data-services
+         * |-- [+] directives
+         * |-- [+] guards
+         * |-- [+] helpers
+         * |-- [+] interceptors
+         * |-- [+] resolvers
+         * |-- [+] services
        * |-- feature-routing.module.ts
        * |-- feature.module.ts
    * |-- utils
