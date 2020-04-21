@@ -2,11 +2,10 @@
 # Struttura del progetto
 
 ## SRC
-* |-- app
-   * |-- core
+* |-- **app**
+   * |-- _core_
      * |-- [+] components
      * |-- [+] components-ui
-     * |-- [+] models
      * |-- [+] ngrx
        * |-- core.reducer.ts (main entry for redux)
        * |-- example.reducer.ts
@@ -15,19 +14,14 @@
      * |-- [+] pages (routed components)       
      * |-- [+] shared
        * |-- [+] animations
-       * |-- [+] data-services (usually basic http calls)
-       * |-- [+] directives
        * |-- [+] guards
-       * |-- [+] helpers
        * |-- [+] interceptors
        * |-- [+] resolvers
-       * |-- [+] services
      * |-- core.module.ts
-   * |-- modules
+   * |-- _modules_
      * |-- feature (**feature** is a placeholder)
        * |-- [+] components
        * |-- [+] components-ui
-       * |-- [+] models
        * |-- [+] modules (if nesting is needed)
        * |-- [+] ngrx
          * |-- feature.reducer.ts
@@ -36,21 +30,25 @@
        * |-- [+] pages (routed components)
          * |-- [+] feature-component for path:'/' (act like index page)
        * |-- [+] shared
+         * |-- [+] classes
          * |-- [+] data-services
          * |-- [+] directives
          * |-- [+] guards
          * |-- [+] helpers
          * |-- [+] interceptors
+         * |-- [+] models
          * |-- [+] resolvers
          * |-- [+] services
        * |-- feature-routing.module.ts
        * |-- feature.module.ts
-   * |-- utils
-   * |-- shared
-     * |-- [+] components-ui
-     * |-- [+] components
-     * |-- [+] directives
-     * |-- [+] pipes
+   * |-- _lib_
+     * |-- [+] classes
+     * |-- [+] data-services
+     * |-- [+] dtos
+     * |-- [+] enums
+     * |-- [+] models
+     * |-- [+] modules
+     * |-- [+] services
 * |-- assets
   * |-- [+] js
   * |-- [+] images
